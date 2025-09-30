@@ -16,7 +16,27 @@ chatExport.zip
   |--  2017-04-13-VIDEO-00000005.mp4
 ```
 
+## 🌐 Web Application (New!)
+
+WhatsBook is now available as a web application that can be deployed on Vercel! This makes it easy to use without installing Python or any dependencies.
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ma-serra/WhatsBook)
+
+Simply click the button above or see [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
+### Features
+
+- 📤 Upload WhatsApp chat exports directly from your browser
+- 🔄 Automatic conversion to LaTeX format
+- 📥 Download the generated `.tex` file
+- 💻 No installation required - works entirely in the browser
+- 🚀 Fast and secure processing
+
 ## Usage
+
+### Command Line (Original Method)
 
 To use the `WhatsBook.py` simply clone the repository and drag the extracted WhatsApp export to the main folder. One can then run the script as a simple oneliner given below or without any arguments to start the guided set-up.
 
